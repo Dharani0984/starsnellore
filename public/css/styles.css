@@ -1,0 +1,110 @@
+.header{
+	display: block;
+    transition: top 0.3s;
+    margin-top: -20px;
+    margin-left: -10px;
+    width: 103%;
+    background-color: #c9d1d2;
+    height: 76px;
+    color :#555;
+    box-shadow: 5px 10px #888888;
+    position: fixed;
+}
+
+.header_title{
+	color:#555;
+    margin-left: 14px;
+    margin-top: 25px;
+
+}
+.left_side_nav {
+    top: 0;
+    left: 0;
+    margin-top: 52px;
+    margin-left: -10px;
+    background-color: red;
+    height: 100%;
+    color: #555;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 8px 0;
+    float: left;
+}
+
+.right_side_nav {
+    margin-left: 14%;   
+    background-color: #f1f1f1;
+    height: 100%;
+    color: #555;
+    width: 87%;
+    position: fixed;
+    float: right;
+}
+.main {
+
+	margin-left: -34px;
+	font-family: century gothic;
+ 	margin-top: 83px;
+  	font-size: 15px; /* Increased text to enable scrolling */
+  	padding: 0px 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.right_panel{
+	color: green;
+    margin-top: 25%;
+}
+
+.panel-content{
+    width: 85%;
+    background-color: #f8f8f8;
+    margin-left: 18%;
+    margin-top: -20px;
+}
+
+    /*Registration Css*/
+
+    .divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+   
+
+
+
+
+
+
